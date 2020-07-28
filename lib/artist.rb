@@ -1,6 +1,9 @@
 require 'pry'
 
 class Artist
+  
+  extend "./concerns/memorable.rb"
+  
   attr_accessor :name
   attr_reader :songs
 

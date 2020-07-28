@@ -12,5 +12,11 @@ module Memorable
   
   def InstanceMethods
     
+    
+    
+    song 
+    def initialize
+    @@songs << self
+  end
   
 end
